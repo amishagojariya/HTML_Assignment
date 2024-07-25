@@ -8,6 +8,8 @@
 <body>
 
     <table>
+        <form
+
         <tr>
             <th>    <h1 style="color: red;">Employee Ragistration Form</h1> </th>
         </tr>
@@ -17,11 +19,11 @@
             <td>
                 <label for=""></label>
                 <label for="">Mr.</label>
-                <input type="radio" name="" id="Mr." required>
+                <input type="radio" name="Gender" id="Mr." checked value="Mr.">
                 <label for="">Mrs.</label>
-                <input type="radio" name="" id="Mrs." required>
+                <input type="radio" name="Gender" id="Mrs."value ="mrs.">
                 <label for="">Ms.</label>
-                <input type="radio" name="" id="Ms." required>
+                <input type="radio" name="Gender" id="Ms." value="Ms.">
             </td>
         </tr>
 
@@ -37,12 +39,12 @@
 
         <tr>
             <td><label for="mail Address1"></label> mail address1</td>
-            <td><input type="text"></td>
+            <td><input type="text" required></td>
         </tr>
 
         <tr>
             <td><label for="mail address2"></label> mail address2</td>
-            <td><input type="text"></td>
+            <td><input type="text" required minlength="3" maxlength="30"></td>
         </tr>
         
         <tr>
@@ -69,7 +71,7 @@
         </tr>
         <tr>
             <td><label for="E-mail"></label> E-mail</td>
-            <td><input type="text"></td>
+            <td><input type="email"></td>
         </tr>
         <tr>
             <td><label for="Mobile"></label> Mobile</td>
@@ -95,7 +97,7 @@
         </tr>
         <tr>
             <td><label for=""></label></td>
-            <td><button>submit</button><input type="reset"></td>
+            <td><button>submit</button> <input type="reset" type="button" value="reset"></td>
         </tr>
  
            
